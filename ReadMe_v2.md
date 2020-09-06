@@ -1,3 +1,8 @@
+# Final version: 
+- UT99 prepatched: https://private-downloads.bymatej.com/games/UT99/UnrealTournament2000_prepatched_v2.zip
+- MonsterHunt mod: https://private-downloads.bymatej.com/games/UT99/maps-and-mods/monsterhunt.rar
+
+
 Todo: mirror all downloads to private-downloads.bymatej.com and GDrive
 Todo: Provide pre-tweaked installation for download
 
