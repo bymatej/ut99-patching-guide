@@ -50,3 +50,11 @@ The in-game menu might mess up your gamma in your OS after you set the brightnes
 If the in-game settings do not work, adjust your graphics card gamma by executing this in terminal `xgamma -gamma 3`
 
 Note: `gamma` value must be between `0.100` and `10.000`
+
+# Server info
+- My ini file: https://github.com/bymatej/contabo-vps-notes/blob/main/notes/installation/games/ut99/ut99server.ini (bugger off)
+- URL: ut99.bymatej.com:7777
+- Password: ask me for the password
+- Admin console: https://ut99-admin.bymatej.com/
+- Filebrowser: https://ut99-files.bymatej.com/
+
