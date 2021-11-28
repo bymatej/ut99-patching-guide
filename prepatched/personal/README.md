@@ -34,3 +34,19 @@ Steps:
 Extract the archive and place the content of all folders into respective game folders. 
 For example, everything from `monsterhunt/System/` (files from the archive) should be copied to `UnrealTournament/System/` (folder where your UT99 is installed)
 
+
+## Gamma/Brightness issue
+Issue: You Unreal Tournament is too dark. 
+Solution: 
+- Increase your screen brightnes
+- Adjust the brightness in the in-game menu (Preferences -> Brigthness)
+
+### Windows
+If the in-game settings do not work, adjust your graphics card brightness and gamma in the respective card settings. For example, NVIDIA and IntelHD graphic cards have their separate apps for tweaking the color schemes, contrast, brightness, gamma, etc. Use that to your advantage.
+
+### Linux
+The in-game menu might mess up your gamma in your OS after you set the brightness and exit the game. If that's the case, run this command in your terminal: `xgamma -gamma 1` (tested on Ubuntu)
+
+If the in-game settings do not work, adjust your graphics card gamma by executing this in terminal `xgamma -gamma 3`
+
+Note: `gamma` value must be between `0.100` and `10.000`
