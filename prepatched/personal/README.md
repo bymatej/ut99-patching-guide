@@ -30,7 +30,7 @@ Steps:
 - download zip (see links below)
 - extract zip
 - open `/Applications/` and right-click on `UnrealTournament.app` and select "Show package content" and then go to `Contents/MacOS/` folder
-- from the extracted zip, move everything EXCEPT Web, Textures, System, and Help folders to `/Applications/UnrealTournament.app/Contents/MacOS/`
+- from the extracted zip, move everything EXCEPT Web, Textures, System, and Help folders to `/Applications/UnrealTournament.app/Contents/MacOS/` (if it complains about the duplicates, you MUST click replace)
 - now, move the content of the extracted `UnrealTournament/System` fodler to `/Applications/UnrealTournament.app/Contents/MacOS/System` and do NOT replace duplicates (click on Skip)
 - Run the UnrealTournament.app (it is in `/Applications/UnrealTournament.app`) and it should run the game now
 - if you face any errors, check this file and try to fix it yourself `~/Library/Application Support/Unreal Tournament/System/UnrealTournament.log`
