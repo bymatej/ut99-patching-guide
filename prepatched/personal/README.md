@@ -81,7 +81,7 @@ Seem to work OK.
 ## I hate the new female announcer
 Solution is to replace it with an old one.
 Go to your `UnrealTournament/Sounds/` folder, and replace the `Announcer.uax` file with an old one (you may want to back up the current one).
-- Old `Announcer.uax` file: https://github.com/bymatej/ut99-patching-guide/blob/4581a7ddcf9a5638784891237e0509aa377f2f62/prepatched/personal/files/Announcer.uax
+- Old `Announcer.uax` file: https://github.com/bymatej/ut99-patching-guide/raw/4581a7ddcf9a5638784891237e0509aa377f2f62/prepatched/personal/files/Announcer.uax
 
 # Server info
 - My ini file: https://github.com/bymatej/contabo-vps-notes/blob/main/notes/installation/games/ut99/ut99server.ini (bugger off)
