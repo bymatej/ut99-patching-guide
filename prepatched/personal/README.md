@@ -84,7 +84,7 @@ Go to your `UnrealTournament/Sounds/` folder, and replace the `Announcer.uax` fi
 - Old `Announcer.uax` file: https://github.com/bymatej/ut99-patching-guide/raw/4581a7ddcf9a5638784891237e0509aa377f2f62/prepatched/personal/files/Announcer.uax
 
 # Server info
-- My ini file: https://github.com/bymatej/contabo-vps-notes/blob/main/notes/installation/games/ut99/ut99server.ini (bugger off)
+- My ini file: https://github.com/bymatej/contabo-vps-notes/blob/main/notes/configuration/games/ut99/System/ut99server.ini (bugger off)
 - URL: ut99.bymatej.com:7777
 - Password: ask me for the password
 - Admin console: https://ut99-admin.bymatej.com/
