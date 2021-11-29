@@ -20,6 +20,21 @@ Steps:
 - Select Direct3D rendering (usually the first option)
 - In case of trouble (bad graphics, or whatever) tweak the settings - either in-game, or in `UnrealTournament/System/UnrealTournament.ini` file
 
+### MacOS (tested on BigSur)
+Steps:
+- download the latest patch for MacOS first: https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469b/OldUnreal-UTPatch469b-macOS.dmg
+- Open the dmg installer
+- Place the app file to Applications folder (just use the installer window to drag and drop)
+- close the installer
+- download zip (see links below)
+- extract zip
+- move the content of the folder named `UnrealTournament` that you just extracted to `/Applications/UnrealTournament.app/Contents/MacOS/` and just merge the content if prompted (open `/Applications/` and right-click on `UnrealTournament.app` and select "Show package content" to be able to go to Contents/MacOS/ folder)
+- while moving the files, the `System` folder will complain, because `~/Library/Application Support/Unreal Tournament/System/UnrealTournament.ini` file is already there - do NOT replace this ini file with the one from the zip
+- Run the UnrealTournament.app (it is in `/Applications/UnrealTournament.app`)
+- if you face any errors, check this file and try to fix it yourself `~/Library/Application Support/Unreal Tournament/System/UnrealTournament.log`
+- I am not sure if this is a right process, but it works. Keep in mind that the User.ini and other files are still in `~/Library/Application Support/Unreal Tournament/System/`
+- I am not sure if pasting stuff inside app (by using "Show package content") is a good practice, but I tried placing everything from the zip into the `~/Library/Application Support/Unreal Tournament/` but it did not work
+
 
 ## UT99 prepatched game download
 ### Unreal Tournament 2000
