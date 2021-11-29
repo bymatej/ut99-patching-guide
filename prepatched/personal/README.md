@@ -28,7 +28,7 @@ Steps:
 - close the installer
 - download zip (see links below)
 - extract zip
-- move the content of the folder named `UnrealTournament` that you just extracted to `/Applications/UnrealTournament.app/Contents/MacOS/` and just merge the content if prompted (open `/Applications/` and right-click on `UnrealTournament.app` and select "Show package content" to be able to go to Contents/MacOS/ folder)
+- move the content of the folder named `UnrealTournament` that you just extracted to `/Applications/UnrealTournament.app/Contents/MacOS/` and just merge/replace the content if prompted (open `/Applications/` and right-click on `UnrealTournament.app` and select "Show package content" to be able to go to Contents/MacOS/ folder)
 - while moving the files, the `System` folder will complain, because `~/Library/Application Support/Unreal Tournament/System/UnrealTournament.ini` file is already there - do NOT replace this ini file with the one from the zip
 - Run the UnrealTournament.app (it is in `/Applications/UnrealTournament.app`)
 - if you face any errors, check this file and try to fix it yourself `~/Library/Application Support/Unreal Tournament/System/UnrealTournament.log`
