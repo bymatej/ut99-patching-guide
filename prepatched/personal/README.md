@@ -37,6 +37,11 @@ Steps:
 - Keep in mind that the User.ini and other files are still in `~/Library/Application Support/Unreal Tournament/System/`. You can also place maps, textures, sounds, etc. there, but I never tried it.
 - more info: https://github.com/OldUnreal/UnrealTournamentPatches#macos-installation
 
+#### Issue connecting to server: 'de' version mismatch
+If you face the 'de version mismatch' error while connecting to servers, please do the following:
+- open `/Applications/` and right-click on `UnrealTournament.app` and select "Show package content" and then go to `Contents/MacOS/` folder
+- from the extracted zip go to System and copy `de.u` and `de.int` into `/Applications/UnrealTournament.app/Contents/MacOS/System` and replace
+
 
 ## UT99 prepatched game download
 ### Unreal Tournament 2000
