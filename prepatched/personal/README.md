@@ -29,12 +29,11 @@ Steps:
 - Run the UnrealTournament.app (it is in `/Applications/UnrealTournament.app`). It will fail, and that's OK (for now). Moving on...
 - download zip (see links below)
 - extract zip
-- move the content of the folder named `UnrealTournament` that you just extracted to `/Applications/UnrealTournament.app/Contents/MacOS/` and just merge/replace the content if prompted (open `/Applications/` and right-click on `UnrealTournament.app` and select "Show package content" to be able to go to Contents/MacOS/ folder)
+- move the content of the folder named `UnrealTournament` that you just extracted to `/Applications/UnrealTournament.app/Contents/MacOS/` and if prompted do NOT replace any files/folders, but it will likely only complain about the Help folder (open `/Applications/` and right-click on `UnrealTournament.app` and select "Show package content" to be able to go to Contents/MacOS/ folder)
 - while moving the files, the `System` folder will complain, because `~/Library/Application Support/Unreal Tournament/System/UnrealTournament.ini` file is already there - do NOT replace this ini file with the one from the zip
 - Run the UnrealTournament.app (it is in `/Applications/UnrealTournament.app`)
 - if you face any errors, check this file and try to fix it yourself `~/Library/Application Support/Unreal Tournament/System/UnrealTournament.log`
-- I am not sure if this is a right process, but it works. Keep in mind that the User.ini and other files are still in `~/Library/Application Support/Unreal Tournament/System/`
-- I am not sure if pasting stuff inside app (by using "Show package content") is a good practice, but I tried placing everything from the zip into the `~/Library/Application Support/Unreal Tournament/` but it did not work
+- Keep in mind that the User.ini and other files are still in `~/Library/Application Support/Unreal Tournament/System/`. You can also place maps, textures, sounds, etc. there, but I never tried it.
 
 
 ## UT99 prepatched game download
