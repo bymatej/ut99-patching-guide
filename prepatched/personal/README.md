@@ -26,6 +26,7 @@ Steps:
 - Open the dmg installer
 - Place the app file to Applications folder (just use the installer window to drag and drop)
 - close the installer
+- Run the UnrealTournament.app (it is in `/Applications/UnrealTournament.app`). It will fail, and that's OK (for now). Moving on...
 - download zip (see links below)
 - extract zip
 - move the content of the folder named `UnrealTournament` that you just extracted to `/Applications/UnrealTournament.app/Contents/MacOS/` and just merge/replace the content if prompted (open `/Applications/` and right-click on `UnrealTournament.app` and select "Show package content" to be able to go to Contents/MacOS/ folder)
@@ -65,6 +66,9 @@ The in-game menu might mess up your gamma in your OS after you set the brightnes
 If the in-game settings do not work, adjust your graphics card gamma by executing this in terminal `xgamma -gamma 3`
 
 Note: `gamma` value must be between `0.100` and `10.000`
+
+### Mac
+Seem to work OK.
 
 # Server info
 - My ini file: https://github.com/bymatej/contabo-vps-notes/blob/main/notes/installation/games/ut99/ut99server.ini (bugger off)
