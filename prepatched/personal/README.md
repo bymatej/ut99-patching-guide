@@ -29,9 +29,10 @@ Steps:
 - Run the UnrealTournament.app (it is in `/Applications/UnrealTournament.app`). It will fail, and that's OK (for now). Moving on...
 - download zip (see links below)
 - extract zip
-- move the content of the folder named `UnrealTournament` that you just extracted to `/Applications/UnrealTournament.app/Contents/MacOS/` and if prompted do NOT replace any files/folders, but it will likely only complain about the Help folder (open `/Applications/` and right-click on `UnrealTournament.app` and select "Show package content" to be able to go to Contents/MacOS/ folder)
-- while moving the files, the `System` folder will complain, because `~/Library/Application Support/Unreal Tournament/System/UnrealTournament.ini` file is already there - do NOT replace this ini file with the one from the zip
-- Run the UnrealTournament.app (it is in `/Applications/UnrealTournament.app`)
+- open `/Applications/` and right-click on `UnrealTournament.app` and select "Show package content" and then go to `Contents/MacOS/` folder
+- from the extracted zip, move everything EXCEPT Web, Textures, System, and Help folders to `/Applications/UnrealTournament.app/Contents/MacOS/`
+- now, move the content of the extracted `UnrealTournament/System` fodler to `/Applications/UnrealTournament.app/Contents/MacOS/System` and do NOT replace duplicates (click on Skip)
+- Run the UnrealTournament.app (it is in `/Applications/UnrealTournament.app`) and it should run the game now
 - if you face any errors, check this file and try to fix it yourself `~/Library/Application Support/Unreal Tournament/System/UnrealTournament.log`
 - Keep in mind that the User.ini and other files are still in `~/Library/Application Support/Unreal Tournament/System/`. You can also place maps, textures, sounds, etc. there, but I never tried it.
 
