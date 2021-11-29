@@ -113,3 +113,8 @@ If it does not work use the Compatibility Troubleshooter from Windows. Also, if 
 
 ## Troubleshooting
 If something does not work, check the links in the "Disclaimer". Or just Google it. Or reinstall the game and start over.
+
+## Additional links
+I found this much later: 
+- https://www.reddit.com/r/unrealtournament/comments/evv9hd/unreal_tournament_99_for_macos/
+- https://mega.nz/#!tigC1JhJ!EHbt26RWd7eX6v81-S0zVPuKLaREaAyY75OHawtunqs
