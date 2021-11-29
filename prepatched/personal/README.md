@@ -22,20 +22,20 @@ Steps:
 
 ### MacOS (tested on BigSur)
 Steps:
-- download the latest patch for MacOS first: https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469b/OldUnreal-UTPatch469b-macOS.dmg
-- Open the dmg installer
-- Place the app file to Applications folder (just use the installer window to drag and drop)
-- close the installer
-- Run the UnrealTournament.app (it is in `/Applications/UnrealTournament.app`). It will fail, and that's OK (for now). Moving on...
 - download zip (see links below)
 - extract zip
-- open `/Applications/` and right-click on `UnrealTournament.app` and select "Show package content" and then go to `Contents/MacOS/` folder
-- from the extracted zip, move everything EXCEPT Web, Textures, System, and Help folders to `/Applications/UnrealTournament.app/Contents/MacOS/` (if it complains about the duplicates, you MUST click replace)
-- now, move the content of the extracted `UnrealTournament/System` fodler to `/Applications/UnrealTournament.app/Contents/MacOS/System` and do NOT replace duplicates (click on Skip)
-- do the same as above for Web, Textures, and Help folders
+- download the latest patch for MacOS first: https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469b/OldUnreal-UTPatch469b-macOS.dmg
+- Open the patch dmg installer
+- Place the app file to Applications folder (just use the installer window to drag and drop)
+- close the installer
+- open `~/Library/Application Support/` folder and create a new folder in it called "Unreal Tournament" (without quotes and with space between words)
+- open `~/Library/Application Support/Unreal Tournament` folder
+- Copy everything from the extracted zip EXCEPT the System folder into `~/Library/Application Support/Unreal Tournament` folder
+- Go to your Textures folder (in `~/Library/Application Support/Unreal Tournament/Textures`) and remmove `LadderFonts.utx` and `UWindowFonts.utx`
 - Run the UnrealTournament.app (it is in `/Applications/UnrealTournament.app`) and it should run the game now
 - if you face any errors, check this file and try to fix it yourself `~/Library/Application Support/Unreal Tournament/System/UnrealTournament.log`
 - Keep in mind that the User.ini and other files are still in `~/Library/Application Support/Unreal Tournament/System/`. You can also place maps, textures, sounds, etc. there, but I never tried it.
+- more info: https://github.com/OldUnreal/UnrealTournamentPatches#macos-installation
 
 
 ## UT99 prepatched game download
